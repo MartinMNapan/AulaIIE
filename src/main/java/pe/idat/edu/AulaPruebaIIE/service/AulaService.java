@@ -11,5 +11,8 @@ public interface AulaService {
 	void guardar(Aula aula);
 	void eliminar(Integer id);
 	void actualizar(Aula aula);
+	
+	//crear un nuevo metodo
+	void asignarEstudianteAula();
 
 }
